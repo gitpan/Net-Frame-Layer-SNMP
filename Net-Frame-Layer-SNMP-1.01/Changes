@@ -1,0 +1,8 @@
+Revision history for Perl extension Net::Frame::Layer::SNMP.
+
+1.01 Tue Mar 12 17:48:36 EST 2013
+   - Updated MANIFEST with new tests.
+   - Updated minor bug in varbinds().
+
+1.00 Tue Mar 12 17:48:36 EST 2013
+   - first public release

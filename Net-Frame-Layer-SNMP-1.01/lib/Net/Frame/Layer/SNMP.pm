@@ -4,7 +4,7 @@
 package Net::Frame::Layer::SNMP;
 use strict; use warnings;
 
-our $VERSION = '1.00';
+our $VERSION = '1.01';
 
 use Net::Frame::Layer qw(:consts :subs);
 use Exporter;
@@ -571,7 +571,7 @@ sub varbinds {
 
    my %params = (
       oid   => '1.3.6.1.4.1.50000',
-      type  => NF_SNMP_VARBINDTYPE_INTEGER,
+      type  => $VARBINDTYPES[NF_SNMP_VARBINDTYPE_INTEGER],
       value => 1,
    );
    if (@_ == 1) {
